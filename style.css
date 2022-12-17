@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.con-filter {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.filter {
+  background-color: rgb(207, 207, 207);
+  padding: 5px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: red;
+  color: white;
+  transition: 400ms;
+}
+
+.con-Boxs {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.Box {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.Red {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+.Blue {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.Black {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
